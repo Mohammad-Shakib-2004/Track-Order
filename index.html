@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Query - Syoping (쇼핑)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="/">Syoping(쇼핑)-Track Order</a>
+    </div>
+
+    <div class="nav-bar">
+    <nav class="nav-bar">
+      <a href="/order-query.html" class="active" target="_blank">Order Query</a>
+      <a href="/complaints.html" target="_blank">Complaints</a>
+      <a href="/chat-support.html" target="_blank">Chat Support</a>
+      <a href="/feedback.html" target="_blank">Feedback</a>
+    </nav>
+    </div>
+
+
+
+  </header>
+
+  <main>
+    <section class="order-query">
+      <h1>Track Your Order</h1>
+      <p>Enter your Order ID and Email to get the latest updates on your order.</p>
+      <form id="orderQueryForm">
+        <input type="text" id="orderId" placeholder="Order ID" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <button type="submit">Track Order</button>
+      </form>
+      <div id="orderStatus" class="status-message"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Syoping (쇼핑). All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
